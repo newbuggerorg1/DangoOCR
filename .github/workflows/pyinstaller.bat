@@ -1,6 +1,2 @@
-set COMMIT="master"
-
-git checkout --force %COMMIT%
-
 python.exe -m pip install pyinstaller
-pyinstaller .\app.py
+mkdir pyinstaller_out && pyinstaller --onefile --specpath .\pyinstaller_out\ --name dango_ocr .\app.py
