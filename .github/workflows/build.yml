@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - uses: microsoft/setup-msbuild@v1
-    - run: .github/workflows/pyinstaller.bat
+    - run: .github/workflows/qpt.bat
     - uses: actions/upload-artifact@main
       with:
-        path: pyinstaller_out/
+        path: qpt_out/
