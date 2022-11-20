@@ -16,3 +16,4 @@ jobs:
         path:
           qpt_out\
           pyinstaller_out\
+          .\
