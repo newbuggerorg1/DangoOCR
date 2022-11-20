@@ -7,4 +7,5 @@ python.exe qpt_out\make.py
 
 dir .\
 dir .qpt_out\
-echo .\requirements.txt
+type .\requirements.txt
+type .\requirements_with_opt.txt
