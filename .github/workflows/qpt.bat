@@ -3,7 +3,7 @@ python.exe -m pip install qpt
 :: python.exe -m pip install paddleocr paddlepaddle
 
 chcp 65001
-python.exe qpt_out\make.py
+python.exe make.py
 
 dir .\
 dir .qpt_out\
