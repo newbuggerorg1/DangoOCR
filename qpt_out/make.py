@@ -6,7 +6,7 @@ module = CEM(
 	launcher_py_path="./app.py",
 	save_path="./qpt_out",
 	requirements_file="auto",
-	hidden_terminal=false
+	hidden_terminal=False
 )
 
 module.make()
