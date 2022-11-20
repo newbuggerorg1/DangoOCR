@@ -1,5 +1,5 @@
 python.exe -m pip install pyinstaller && python.exe -m pip install paddleocr && python.exe -m pip install paddlepaddle
-pyinstaller --onefile --distpath pyinstaller_out --name dango_ocr --hidden-import 'paddle' app.py
+pyinstaller --onefile --distpath pyinstaller_out --name dango_ocr --hidden-import 'paddle' --hidden-import 'framework_pb2' app.py
 
 dir .\pyinstaller_out\
 .\pyinstaller_out\dango_ocr.exe
