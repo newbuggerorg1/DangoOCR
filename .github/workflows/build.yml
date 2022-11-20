@@ -13,6 +13,6 @@ jobs:
     - run: .github/workflows/pyinstaller.bat
     - uses: actions/upload-artifact@main
       with:
-        path:
-          qpt_out/
-          pyinstaller_out/
+        path: |
+          - qpt_out/
+          - pyinstaller_out/
