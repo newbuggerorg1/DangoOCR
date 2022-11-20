@@ -107,7 +107,7 @@ def ocrProcess(imgPath, language):
 
 
 # 接收请求
-@app.route("/ocr/api", methods=["POST"])
+@app.route("/dango_ocr", methods=["POST"])
 def getPost():
     try:
         post_data = request.get_data()
@@ -127,4 +127,4 @@ def getPost():
 
 if __name__ == "__main__" :
 
-    app.run(debug=False, host="0.0.0.0", port=6666, threaded=False)
+    app.run(debug=False, host="localhost", port=10090, threaded=False)
