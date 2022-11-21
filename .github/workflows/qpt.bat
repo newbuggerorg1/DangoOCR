@@ -5,7 +5,7 @@ python.exe -m pip install qpt
 python.exe -m pip install pipreqs && python.exe -m pipreqs .\ --encoding=utf8
 
 chcp 65001
-python.exe make.py
+python.exe .github\workflows\qpt.py
 
 dir .\
 dir qpt_out\
