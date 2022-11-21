@@ -1,11 +1,11 @@
-python.exe -m pip install --upgrade pip
-python.exe -m pip install qpt
+pip install --upgrade pip
+pip install qpt
 
-:: python.exe -m pip install paddleocr paddlepaddle
-python.exe -m pip install pipreqs && python.exe -m pipreqs .\ --encoding=utf8
+:: pip install paddleocr paddlepaddle
+pip install pipreqs && pipreqs .\ --encoding=utf8
 
 chcp 65001
-python.exe .github\workflows\qpt.py
+python.exe .github\workflows\qpt_make.py
 
 dir .\
 dir qpt_out\
