@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - uses: microsoft/setup-msbuild@v1
-    - run: .github/workflows/nuitka.bat
+    - run: .github/workflows/qpt.bat
     - uses: actions/upload-artifact@main
       with:
-        path: app.dist
+        path: qpt_out/
