@@ -1,7 +1,6 @@
 pip install qpt
 pip install pipreqs && pipreqs .\ --encoding=utf8
-:: pip install paddleocr paddlepaddle
-pip install lanms==1.0.2
+pip install pytest lanms-neo paddlepaddle paddleocr
 
 chcp 65001
 python.exe .github\workflows\qpt_make.py
