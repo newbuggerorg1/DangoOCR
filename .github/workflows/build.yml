@@ -13,4 +13,4 @@ jobs:
     - run: .github/workflows/nuitka.bat
     - uses: actions/upload-artifact@main
       with:
-        path: app.exe
+        path: app.dist
