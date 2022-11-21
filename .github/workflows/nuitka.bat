@@ -2,7 +2,7 @@ pip install pipreqs && pipreqs . --encoding=utf8
 :: pip install pytest lanms-neo paddlepaddle paddleocr
 pip install nuitka
 
-nuitka -y --follow-imports --onefile app.py
+echo Yes | nuitka --follow-imports --onefile app.py
 
 dir .
 type requirements.txt
