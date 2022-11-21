@@ -1,5 +1,5 @@
 pip install pipreqs && pipreqs . --encoding=utf8
-:: pip install pytest lanms-neo paddlepaddle paddleocr
+pip install paddlepaddle paddleocr
 pip install nuitka
 
 echo Yes | nuitka --follow-imports --include-package=paddle --standalone app.py
