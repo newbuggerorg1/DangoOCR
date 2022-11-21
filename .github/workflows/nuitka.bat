@@ -1,10 +1,7 @@
-pip install pipreqs && pipreqs . --encoding=utf8
-pip install -r requirements.txt
-pip install paddlepaddle paddleocr
+pip install pipreqs && pipreqs . --encoding=utf8 && pip install -r requirements.txt
 pip install nuitka
 
-echo Yes | nuitka --follow-imports --include-package=paddle --standalone app.py
+echo Yes | nuitka --follow-imports --include-package=paddle --standalone json_loads.py
 
-dir .
-dir app.build app.dist app.onefile-build
+dir . json_loads.build json_loads.dist json_loads.onefile-build
 type requirements.txt
