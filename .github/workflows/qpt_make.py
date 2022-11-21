@@ -5,8 +5,8 @@ module = CEM(
 	work_dir="./",
 	launcher_py_path="./json_loads.py",
 	save_path="./qpt_out",
-	requirements_file="auto",
-	# requirements_file="./requirements.txt",
+	# requirements_file="auto",
+	requirements_file="./requirements.txt",
 	hidden_terminal=False
 )
 
